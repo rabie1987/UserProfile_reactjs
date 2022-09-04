@@ -4,18 +4,17 @@ import Card from "./Components/Card";
 
 function App() {
   const [name, setName] = useState("Your Name");
-  const [address, setAddress] = useState("Adrress");
-  const [about, setAbout] = useState("Activity");
+  const [profile, setProfile] = useState("Profile");
+  const [address, setAddress] = useState("Address");
 
   return (
     <div className="App">
       <Card
         name={"Rabie Tabbessi"}
+        profile={"Full Stack Developer"}
         address={"Gafsa"}
-        about={"Full Stack Developer"}
       />
     </div>
   );
 }
-
 export default App;
